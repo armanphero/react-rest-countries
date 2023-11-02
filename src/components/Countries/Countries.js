@@ -11,7 +11,7 @@ const Countries = () => {
     }, []);
     return (
         <div>
-            <h1>{countries.length} Countries of the world</h1>
+            <h1 className='text-info'>{countries.length} Countries of the world have been found</h1>
 
             <div className='countries'>
                 {
